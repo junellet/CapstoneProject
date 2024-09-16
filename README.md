@@ -1,36 +1,23 @@
-# CapstoneProject - Youtube Sentiment Analysis
+# Predicting Youtube Views
 
-## Problem Area: Can Youtube Comments Predict Performance?
-I would like to use an emotion classification model to predict the performance of Youtube Videos. Performance can be indicated by views, likes and comments.
+## Problem Area: What Drives Video Views for ASMR videos?
 
-## Stakeholder & Impact
+## Methodology
 
-- Brands
-  - Brand management
-  - Marketing / Social listening
-  - Product management
-- Content Creators
-  - Content management
-  - Community engagement
-  - Competitor analysis
-- Youtube
-  - User engagement & retention
-  - Content recommendation
-  - Ad targeting
-  - Content moderation
+- Query ASMR videos using Youtube API
+- Clean data
+- EDA
  
-## Dataset
-Randomly generated Youtube videos - URLs TBD. Querying from the Youtube API, fields to be returned are:
+## Modeling
+- Preprocessing
+  - One hot encoding
+  - Stemming
+  - Vectorization
+- Results
+  - Accuracy of 67%, 17% above baseline
 
-- Title
-- Description
-- Publish Date
-- Channel ID & Title
-- Tags
-- Category ID
-- Language
-- Duration
-- Views
-- Likes / Dislikes
-- Favorites
-- Comments
+## Next Steps
+- Additional data querying
+- Additional pre-processing
+- Modeling random forest
+- Creator dashboard
