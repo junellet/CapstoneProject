@@ -1,23 +1,18 @@
-# Predicting Youtube Views
+# YouTube IQ - A Creator Analytics Dashboard
 
-## Problem Area: What Drives Video Views for ASMR videos?
+## Overview
+- Goal: Develop a dashboard to help content creators uncover insights in their specific Youtube genre / content space
+- Focus of this project: Analyze ASMR videos, chosen for its distinct trends
+- Future vision: Implement as a repeatable process for analyzing other Youtube content such as sports, gaming, etc
 
 ## Methodology
 
-- Query ASMR videos using Youtube API
-- Clean data
-- EDA
+- Data Querying Through YouTube API
+- Data Cleaning, Transformation & EDA (see notebooks 1-3)
+- Model Preprocessing & Modeling (see notebook 4)
  
-## Modeling
-- Preprocessing
-  - One hot encoding
-  - Stemming
-  - Vectorization
-- Results
-  - Accuracy of 67%, 17% above baseline
+## Modeling Results
+- Accuracy of 67%, 17% above baseline
 
-## Next Steps
-- Additional data querying
-- Additional pre-processing
-- Modeling random forest
-- Creator dashboard
+## Dashboard
+- See Hex App for insights
